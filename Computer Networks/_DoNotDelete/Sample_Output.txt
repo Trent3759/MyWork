@@ -1,0 +1,34 @@
+Python 3.5.2 |Anaconda 4.1.1 (64-bit)| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: \\trace\Class\CSC-565-665\001\Scott031\_DoNotDelete\UDPclient.py =
+
+-----------------------------------------------------------------------
+|    Welcome to Laon Payment Calculator by TrentApps                  |
+|    Please visit http://TrentApps.com for contact information.       |
+|                                                                     |
+|    This command line program was made to calculate how much         |
+|    loan payments would be for each month and each year.             |
+|                                                                     |
+|                      Getting Started                                |
+|    Enter 'Cal <server_address> <principle_in_$> <years_financed>    |
+|    <interest_rate>' to run the program. Please note: when using     |
+|    this command you should use only numbers. Interest rate should   |
+|    be in decimal form. Please see the example Below for more help.  |
+|                                                                     |
+|    For the purpose of this assignment, localhost will be used as    |
+|    the server.                                                      |
+|                                                                     |
+|                          Example                                    |
+|    If you wish to calculate monthly and yearly payments             |
+|    for a loan of $30,000 over 30 years with an interest rate of     |
+|    %13, please enter 'Cal localhost 30000 30 .13' without quotes.   |
+|                                                                     |
+|    Enjoy.                                                           |
+-----------------------------------------------------------------------
+
+>> Cal localhost 300000 30 .25
+$300,000.00 loan
+monthly payment is $6,253.74
+total payment is $75,044.83
+>> 
